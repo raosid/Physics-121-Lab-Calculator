@@ -1,0 +1,61 @@
+body {
+	font-size: 12pt;
+	font-family: "helvetica";
+}
+
+#heading {
+	text-align: center;
+	font-family: "helvetica";
+	color: #6666CC;
+}
+
+#main_box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#values {
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.button {
+	background-color: #00CC33;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #009933;
+}
+
+#results {
+	margin-right: auto;
+	padding: 10px;
+	margin-left: auto;
+	width: 30%;
+	margin-top: 40px;
+	background-color: #FFCCCC;
+	border-radius: 5px;
+	border: none;
+}
+
+#error {
+	font-size: 1.5em;
+	text-align: center;
+	color: red;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	margin-left: 39%;
+}
